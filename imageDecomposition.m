@@ -10,7 +10,6 @@ imagesDecompositionFun("Artist Palette")
 %-----------------functions------------------------------------
 
 function []= imagesDecompositionFun(path)
-
 %finding Raw image files in the given path directory
 files = dir (strcat(path,'\*.NEF'));
 L = length (files);
@@ -40,30 +39,30 @@ for i=1:L
    
    
 end
-
-
-
-
-
 end
 
 
 function []=luminanceComponent()
-
+ 
 end
 
 function [ ]=chrominanceComponent()
 
 end
 
-function []=gradientComponent()
+function [Gmag,Gdir]=gradientComponent(image)
+    [Gmag, Gdir] = imgradient(image,'prewitt');
 
 end
 
-function []=HueAndSaturation()
-
+function [saturationValue]=Saturation(chrominanceU,chrominanceV)
+    saturationValue = ;
+  
 end
 
+function [hueValue]=Hue(chrominanceU,chrominanceV)
+    hueValue = atan(chrominanceU/chrominanceV);
+end
 
 function [timeOfExposure]=exposureTimeOfImages(imagePath)
 
