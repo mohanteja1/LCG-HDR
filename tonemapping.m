@@ -1,1 +1,0 @@
-//tone mapping based on the lcghdr method
