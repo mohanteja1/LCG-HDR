@@ -4,6 +4,7 @@
 <p align="center">
 <b>//-----------------------------final year project---------------------------------//</b>
 </p>
+
 ### System Architecture:
 
 **Flow chart to generate Tone mapped HDR image**
