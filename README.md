@@ -5,6 +5,8 @@
 <b>//-----------------------------final year project---------------------------------//</b>
 </p>
 
+
+
 ### System Architecture:
 
 **Flow chart to generate Tone mapped HDR image**
@@ -24,7 +26,9 @@
 </p>
 
 
+
 #### Algorithm
+
 
 <pre>
 <b>Algorithm 1.1:</b> HDR image generation using LCGHDR technique
