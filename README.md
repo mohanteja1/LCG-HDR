@@ -24,7 +24,7 @@
 </p>
 
 
-####Algorithm
+#### Algorithm
 
 <pre>
 <b>Algorithm 1.1:</b> HDR image generation using LCGHDR technique
