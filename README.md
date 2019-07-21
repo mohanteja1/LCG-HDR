@@ -37,7 +37,7 @@
 
     <b>for</b> each image <b>C</b>i :
 
-        <b>if<b> <b>C</b>i is in RGB color space <b>then</b>
+        <b>if</b> <b>C</b>i is in RGB color space <b>then</b>
                 convert <b>C</b>i into YUV space
         end if
 
