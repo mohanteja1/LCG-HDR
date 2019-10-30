@@ -88,7 +88,7 @@
 3. [C++ code for finding camera response function:](https://github.com/cbraley/hdr)
 
 
-
+###NOTE : IF YOU ARE A RESEARCHER , PLS DON'T WASTE TIME THIS IS A FAILURE EXPERIMENT DONE BY UNDERGRAD STUDENTS WITH LIMITED KNOWLEDGE THEY HAVE . 
 
 
 
